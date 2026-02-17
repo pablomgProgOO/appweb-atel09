@@ -16,16 +16,13 @@ watch(selectedValue, (newValue, oldValue) => {
 
 <template>
   
-  <HelloWorld msg="Vite + Vue" />
-  <div class="container">
-    <h2>Communication Parent-Enfant avec v-model</h2>
-    <p>Texte dans le parent: {{ textValue }}</p>
-    <p>Option sélectionnée dans le parent: {{ selectedValue }}</p>
-    <ChildComponent v-model:textValue="textValue" v-model:selectedValue="selectedValue" />
-  </div>
+ 
 </template>
 
 <style scoped>
+.invisibleBody {
+  width: none;
+}
 .logo {
   height: 6em;
   padding: 1.5em;
