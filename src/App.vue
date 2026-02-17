@@ -1,7 +1,5 @@
 <script setup lang="ts">
-import HelloWorld from './components/HelloWorld.vue'
 import { ref, watch } from 'vue'
-import ChildComponent from './components/ChildComponent.vue'
 
 const textValue = ref('')
 const selectedValue = ref('option1')
